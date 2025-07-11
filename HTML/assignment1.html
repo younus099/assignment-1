@@ -4,31 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicken Biryani</title>
+    <link rel="stylesheet" href="astyle.css">
 </head>
 <body>
-    <h1>Chicken Biryani</h1>
-    <p>Chicken Biryani is a flavorful and aromatic rice dish made with marinated chicken, fragrant basmati rice, and a blend of spices. It is one of the most beloved dishes in South Asian cuisine and is enjoyed around the world.</p>
+    <center><h1>Chicken Biryani</h1></center>
+    <p style="font-size: 25px">Chicken Biryani is a flavorful and aromatic rice dish made with marinated chicken, fragrant basmati rice, and a blend of spices. It is one of the most beloved dishes in South Asian cuisine and is enjoyed around the world.</p>
     <img src="chickenbiryani.jpeg" alt="chickenbiryani" width="660px" height="390px" >
     <h2>📋 Recipe Steps:</h2>
     <div>
-       <p>
-        <p class="side-heading">1. Marinate the Chicken</p>
-        &nbsp;&nbsp;&nbsp;- Combine chicken with yogurt, ginger-garlic paste, turmeric, red chili powder, garam masala, and salt. Marinate &nbsp;&nbsp;&nbsp;&nbsp;for at least 1 hour.</p>
-       <p>
-        <p class="side-heading">2. Cook the Rice </p>
-        &nbsp;&nbsp;&nbsp;- Parboil basmati rice with whole spices like bay leaves, cardamom, cloves, and cinnamon.</p>
-       <p>
-        <p class="side-heading">3. Prepare the Base </p>
-        &nbsp;&nbsp;&nbsp;- Fry sliced onions until golden, then add chopped tomatoes, mint, and coriander.</p>
-       <p>
-        <p class="side-heading">4. Layering </p>
-        &nbsp;&nbsp;&nbsp;- In a pot, add marinated chicken, then layer with rice. Top with saffron milk and fried onions.</p>
-       <p>
-        <p class="side-heading">5. Dum Cooking </p>
-        &nbsp;&nbsp;&nbsp;- Cover tightly and cook on low heat for 20–30 minutes.</p>
-       <p>
-        <p class="side-heading">6. Serve Hot </p>
-        &nbsp;&nbsp;&nbsp;- Mix gently before serving with raita or salan.</p>
+        <h2>1. Marinate the Chicken</h2>
+        <p>- Combine chicken with yogurt, ginger-garlic paste, turmeric, red chili powder, garam masala, and salt. Marinate for at least 1 hour.</p>
+        <h2>2. Cook the Rice </h2>
+        <p>- Parboil basmati rice with whole spices like bay leaves, cardamom, cloves, and cinnamon.</p>
+        <h2>3. Prepare the Base </h2>
+        <p>- Fry sliced onions until golden, then add chopped tomatoes, mint, and coriander.</p>
+        <h2>4. Layering </h2>
+        <p>- In a pot, add marinated chicken, then layer with rice. Top with saffron milk and fried onions.</p>
+        <h2>5. Dum Cooking </h2>
+        <p>- Cover tightly and cook on low heat for 20–30 minutes.</p>
+        <h2>6. Serve Hot </h2>
+        <p>- Mix gently before serving with raita or salan.</p>
     </div>
     <h2>📝 Ingredients List:</h2>
     <ul>
@@ -47,10 +42,12 @@
         <li>Salt to taste</li>
         <li>Cooking oil or ghee</li>
     </ul>
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/UXJWy8u8ZPo?si=NiIBZiTU9QBSq8s9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><br><br>
+    <center><iframe width="860" height="515" src="https://www.youtube.com/embed/UXJWy8u8ZPo?si=NiIBZiTU9QBSq8s9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </center>
     <br>
-    <table border="2">
+    <center>
+    <table border="4">
         <caption><b>Nutrition Facts</b></caption>
         <thead>
             <tr>
@@ -99,30 +96,34 @@
             </tr>
         </tbody>
     </table>
-    <br><br>
-    <form action="submit" method="get">
-        <label for="name">Name</label>
+    </center>
+    <br><br><br>
+    <center><caption>Provide us a feedback</caption></center>
+    <form action="/Classwork/Day-2/html/success.html" method="get">
+        <label for="name">Name : </label>
         <input type="text" placeholder="Enter your name" required>
-        <br>
+        <br><br>
 
-        <label for="email">E-mail</label>
+        <label for="email">E-mail : </label>
         <input type="email" name="email" pattern="^[a-z0-9A-Z]+@[a-z]+.(com|in)$" required>
-        <br>
+        <br><br>
 
-        <label for="Rating">Rate this recipe</label>
+        <label for="Rating">Rate this recipe : </label>
         <input type="radio" name="rating">1
         <input type="radio" name="rating">2
         <input type="radio" name="rating">3
         <input type="radio" name="rating">4
         <input type="radio" name="rating">5
+        <br><br>
+
+        <label for="feedback">Your Feedback : </label>
+        <textarea name="address" cols="30" rows="10" ></textarea>
         <br>
 
-        <label for="feedback">Your Feedback</label>
-        <textarea name="address" cols="30" rows="10"></textarea>
-        <br>
-
-        <label for="suggestion">Suggest a recipe You'd like to see</label>
+        <label for="suggestion">Suggest a recipe You'd like to see : </label>
         <textarea name="suggestion" cols="30" rows="3"></textarea>
+        <br><br>
+        <center><button type="submit">Submit</button></center>
     </form>
 </body>
 </html>
